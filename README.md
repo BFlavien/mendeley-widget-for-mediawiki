@@ -40,7 +40,7 @@ Default values
 Troubleshooting
 ===============
 
-Mendeley widget is an extremely simple extension; all it does is convert an "mendeleywidget" tag into an `<iframe></iframe>` tag and generate the embedding code and let you customize the widget as you can on the Mendeley application.
+Mendeley widget is an extremely simple extension; all it does is convert an `<mendeleywidget />` tag into an `<iframe></iframe>` tag and generate the embedding code and let you customize the widget as you can on the Mendeley application.
 
 There is default values to prevent errors from the users.
 
