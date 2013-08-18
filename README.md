@@ -35,7 +35,7 @@ You can configure it as an iframe (it is iframe-based).
 Default values
 --------------
 
-    <mendeleywidget src="uri_of_the_src" width="260px" height="550px" scrolling="auto" frameborder="0" n_papers="10" />
+    <mendeleywidget src="uri_of_the_src" width="260px" height="550px" scrolling="auto" frameborder="0" ribbon="false" picture="false" owner="false" groupdesk="false" heading="false" n_papers="10" />
 
 Troubleshooting
 ===============
