@@ -11,7 +11,7 @@
 			$scrolling		= 'auto';
 			$frameborder	= 0;
 			$options		= 0;
-			$nbPapers		= 2;
+			$n_papers		= 10;
 
 			/**
 				Example of the output :  
@@ -48,7 +48,7 @@
 
 			// Customization of the group widget
 
-			if( isset($args['ribbon']) && $args['ribbon'] && $args['ribbon'] == 'true' ){
+			if( isset($args['ribbon']) && $args['ribbon'] && $args['ribbon'] === 'true' ){
 				$options += 1;
 			}
 
@@ -69,12 +69,12 @@
 			}
 
 			// nb of papers
-			if( isset($args['nbpapers']) && $args['nbpapers'] ){
-				$nbPapers = htmlspecialchars( $args['nbpapers'] );
+			if( isset($args['n_papers']) && $args['n_papers'] ){
+				$n_papers = htmlspecialchars( $args['n_papers'] );
 			}
 			$wgOut->addModules( 'MendeleyWidget' );
 
-			return '<iframe src="'.$src.'/widget/'.$options.'/'.$nbPapers.'/" frameborder="'.$frameborder.'" allowTransparency="true" style="width:'.$width.';height:'.$height.';"></iframe>';
+			return '<iframe src="'.$src.'/widget/'.$options.'/'.$n_papers.'/" frameborder="'.$frameborder.'" allowTransparency="true" style="width:'.$width.';height:'.$height.';"></iframe>';
 		}
 	}
 ?>
