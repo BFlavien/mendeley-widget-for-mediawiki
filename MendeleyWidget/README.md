@@ -16,7 +16,7 @@ Installation
 Configuration parameters
 ========================
 
-Just insert the `<mendeleywidget option1="value1" option2="value2" .../>` tag where you want the widget to appear.
+Just insert the `<mendeleywidget option1="value1" option2="value2" .../>` tag where you want the widget to appear. If you miss the `/` in the tag, it can remove page content.
 
 You can configure it as an iframe (it is iframe-based).
 
